@@ -1,0 +1,8 @@
+public class Double_To_String {
+    public static void main(String[] args){
+        double d = 67.890;
+        System.out.println("Double value be " + d) ;
+        String s = String.valueOf(d) ;
+        System.out.println("String value be " + s) ;
+    }
+}
