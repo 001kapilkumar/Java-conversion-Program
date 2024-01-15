@@ -1,0 +1,9 @@
+public class Float_To_String {
+    public static void main(String[] args){
+        float f = 23.88877F ;
+        System.out.println("Float value be " + f) ;
+        String s = String.valueOf(f) ;
+        System.out.println("String be "+ s) ;
+        
+    }
+}
