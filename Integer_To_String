@@ -1,0 +1,12 @@
+public class Integer_To_String {
+    public static void main(String[]args){
+        int n = 12345 ;
+        System.out.println("Integer be ");
+        System.out.println(n);
+        String s = String.valueOf(n) ;
+        System.out.println("String be ");
+        System.out.println(s);
+
+
+    }
+}
