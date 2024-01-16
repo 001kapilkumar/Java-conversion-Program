@@ -1,0 +1,8 @@
+public class Object_To_String {
+    public static void main(String[] args){
+        Object b = "hii" ;
+        System.out.println("object be " + b) ;
+        String s = String.valueOf(b) ;
+        System.out.println("String be " + s) ;
+    }
+}
