@@ -1,0 +1,10 @@
+public class Integer_To_Long {
+    public static void main(String[] args){
+        int i = 123;
+        System.out.println("Integer be "+ i) ;
+        long l = i ;
+        long l1 = Long.valueOf(i) ;
+        System.out.println("Long value be " + l);
+       // System.out.println(l1) ;
+    }
+}
