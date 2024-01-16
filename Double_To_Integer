@@ -1,0 +1,9 @@
+public class Double_To_Integer {
+    public static void main(String [] args){
+        double d = 789.987 ;
+        System.out.println("Double value be " + d) ;
+        int i = (int) d ;
+       System.out.println("Integer value be "+ i) ;
+
+    }
+}
