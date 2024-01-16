@@ -1,0 +1,13 @@
+public class Char_To_Integer {
+    public static void main(String[] args){
+        char c =  '9' ;
+        System.out.println("Char value be "+ c);
+        int i = Integer.valueOf(c) ;
+        int i1 = c ;
+        int i2 = Integer.parseInt(String.valueOf(c)) ;
+        System.out.println("Integer value be "+ i) ;
+        System.out.println("Integer value " + i1);
+        System.out.println("Integer be " + i2) ;
+
+    }
+}
