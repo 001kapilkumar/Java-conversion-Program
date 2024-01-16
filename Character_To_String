@@ -1,0 +1,8 @@
+public class Char_To_String {
+    public static void main(String [] args){
+        char c = 'h' ;
+        System.out.println("Char be " + c) ;
+        String s = String.valueOf(c);
+        System.out.println("String be " +s ) ;
+    }
+}
