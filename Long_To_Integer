@@ -1,0 +1,9 @@
+public class Long_To_Integer {
+    public static void main(String[]args){
+        long l = 9799L  ;
+        System.out.println("Long value be " + l);
+        int i = (int)l ;
+        System.out.println("Integer value be " + i) ;
+        
+    }
+}
