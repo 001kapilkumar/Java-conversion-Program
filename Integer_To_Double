@@ -1,0 +1,9 @@
+public class Integer_To_Double {
+    public static void main(String [] args){
+        int i = 5778;
+        System.out.println("Integer be " + i) ;
+        double d = i;
+        System.out.println("Double value be " + d) ;        
+
+    }
+}
