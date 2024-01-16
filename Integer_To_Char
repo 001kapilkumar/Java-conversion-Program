@@ -1,0 +1,12 @@
+public class Integer_To_Char {
+    public static void main(String [] args){
+        int i = 89;
+
+        System.out.println("Integer value be " + i) ;
+        char c = (char)i;
+
+        System.out.println("Char value be " + c) ;
+
+
+    }
+}
