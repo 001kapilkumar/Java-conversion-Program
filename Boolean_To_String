@@ -1,0 +1,8 @@
+public class Boolean_To_String {
+    public static void main(String [] args){
+        boolean b = true ;
+        System.out.println("Boolean value be " + b) ;
+        String s = String.valueOf(b) ;
+        System.out.println("String value be " + s) ;
+    }
+}
