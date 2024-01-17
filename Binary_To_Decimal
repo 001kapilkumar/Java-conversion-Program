@@ -1,5 +1,5 @@
 import java.util.*;
-public class Boolean_To_Decimal {
+public class Binary_To_Decimal {
     public static int getDecimal(int b ){
         int decimal = 0 ;
         int n = 0 ;
