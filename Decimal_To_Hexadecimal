@@ -1,0 +1,42 @@
+import java.util.*;
+public class Decimal_To_Hexadecimal {
+
+      public static void getHexadecimal(int d) {
+
+          int[] arr = new int[89];
+          int index = 0;
+          while(d >0) {
+              int temp = d % 16 ;
+              arr[index] = temp ;
+              index++ ;
+              d = d/16 ;
+
+          }
+          for (int i=index-1 ;i>=0 ;i--) {
+              if (arr[i] == 10) {
+                  System.out.print("A" + " ");
+              } else if (arr[i] == 11) {
+                  System.out.print("B" + " ");
+              } else if (arr[i] == 12) {
+                  System.out.print("C" + " ");
+              } else if (arr[i] == 13) {
+                  System.out.print("D" + " ");
+              } else if (arr[i] == 14) {
+                  System.out.print("E" + " ");
+              } else if (arr[i] == 15) {
+                  System.out.print("F" + " ");
+              } else {
+                  System.out.print(arr[i] + " ");
+              }
+          }
+
+      }
+    public static void main(String [] args){
+          Scanner sc = new Scanner(System.in);
+          System.out.println("Enter decimal value ");
+          int decimal = sc.nextInt() ;
+
+          getHexadecimal(decimal) ;
+
+    }
+}
