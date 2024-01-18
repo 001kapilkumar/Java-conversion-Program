@@ -1,0 +1,21 @@
+import java.util.*;
+public class Octal_To_Decimal {
+    public static int getDecimal(int o ){
+        int decimal = 0;
+        int n = 0 ;
+        while(o>0){
+            int temp = o % 10 ;
+            decimal = decimal + (int)(temp*Math.pow(8,n)) ;
+            n++ ;
+            o = o /10 ;
+
+        }
+        return decimal ;
+    }
+    public static void main(String [] args){
+      Scanner sc = new Scanner(System.in) ;
+      System.out.println("Enter octal number ") ;
+      int octal = sc.nextInt() ;
+      System.out.println("Decimal be " + getDecimal(octal));
+    }
+}
